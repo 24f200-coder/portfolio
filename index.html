@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio — 24f2005949</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card: #1e293b;
+      --text: #e2e8f0;
+      --muted: #94a3b8;
+      --accent: #38bdf8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    header {
+      padding: 4rem 1.5rem 3rem;
+      text-align: center;
+      background: linear-gradient(180deg, #1e293b 0%, #0f172a 100%);
+    }
+    header h1 { margin: 0 0 0.5rem; font-size: 2.4rem; }
+    header p { margin: 0; color: var(--muted); }
+    main { max-width: 900px; margin: 0 auto; padding: 2rem 1.5rem 4rem; }
+    section { margin-bottom: 2.5rem; }
+    h2 {
+      font-size: 1.4rem;
+      border-bottom: 2px solid var(--accent);
+      padding-bottom: 0.4rem;
+    }
+    .card {
+      background: var(--card);
+      border-radius: 10px;
+      padding: 1.1rem 1.3rem;
+      margin-bottom: 1rem;
+    }
+    .card h3 { margin: 0 0 0.4rem; color: var(--accent); }
+    .card p { margin: 0; color: var(--muted); }
+    ul { padding-left: 1.2rem; }
+    a { color: var(--accent); }
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      color: var(--muted);
+      border-top: 1px solid #334155;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Prashanth's Portfolio</h1>
+    <p>Data Science student &mdash; IIT Madras</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>About Me</h2>
+      <div class="card">
+        <p>
+          I build and ship small, useful software: static sites, REST APIs and
+          analytics tooling. This page is published with GitHub Pages to
+          showcase my coursework and projects.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <div class="card">
+        <h3>Vercel Latency Analytics API</h3>
+        <p>A serverless endpoint that measures and reports request latency for an eShopCo analytics dashboard.</p>
+      </div>
+      <div class="card">
+        <h3>GitHub Actions CI</h3>
+        <p>Automated grading workflow pipelines with matrix builds and artifact publishing.</p>
+      </div>
+      <div class="card">
+        <h3>FastAPI Students Service</h3>
+        <p>CRUD REST API for student records with validation and pagination.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <div class="card">
+        <ul>
+          <li>Python, FastAPI, Pandas</li>
+          <li>HTML, CSS, JavaScript</li>
+          <li>Git, GitHub Actions, Vercel</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <div class="card">
+        <p>
+          Email:
+          <!--email_off-->24f2005949@ds.study.iitm.ac.in<!--/email_off-->
+        </p>
+        <p>GitHub: <a href="https://github.com/24f200-coder">github.com/24f200-coder</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2026 &mdash; Hosted on GitHub Pages
+  </footer>
+</body>
+</html>
